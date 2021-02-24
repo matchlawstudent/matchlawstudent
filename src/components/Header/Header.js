@@ -6,6 +6,8 @@ import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import IconButton from '@material-ui/core/IconButton';
 import FacebookIcon from '@material-ui/icons/Facebook';
 import { useHistory } from "react-router-dom";
+import Breadcrumbs from '@material-ui/core/Breadcrumbs';
+import Link from '@material-ui/core/Link';
 import './Header.css';
 
 const ColorButton = withStyles((theme) => ({
@@ -17,51 +19,61 @@ const ColorButton = withStyles((theme) => ({
     },
     margin: "10px",
     borderRadius: "15px",
+    width: "25%",
   },
 }))(Button);
 
 export default function Header() {
   const history = useHistory();
 
-    
-  function goHome() {
-    history.push("/"); 
-  }
-  
-  function goInfo() {
-    history.push("/info")
-  }
-
-  function goAbout() {
-    history.push("/about");
+  function handleClick(event, path) {
+    event.preventDefault();
+    history.push(path);
   }
 
   return (
-    <Grid container alignItems="center" justify="center" alignContent="center" style={{borderBottom: "1px solid #367460"}}>
-      <Grid item xs={12} sm={6} style={{textAlign: "left", display: "flex", alignItems: "center", margin: "10px"}}>
-          <img src="/images/MathLaw.PNG"></img>
-          <a href="https://www.linkedin.com/company/matchlawstudent/about/" target="_blank">
-          <IconButton variant="link" component="span" style={{width: "15px", height: "15px"}}>    
-              <LinkedInIcon style={{fontSize: "1.2em"}}/>
-            </IconButton>
-          </a>
-            <IconButton variant="link" component="span" style={{width: "15px", height: "15px"}} >
-              <InstagramIcon style={{fontSize: "1.2em"}}/>
-            </IconButton>
-            <IconButton variant="link" component="span" style={{width: "15px", height: "15px"}} >
-              <FacebookIcon style={{fontSize: "1.2em"}}/>
-            </IconButton>
-      </Grid>
-      <Grid item xs={12} sm={5} style={{textAlign: "right"}} >
-        <Grid container justify="flex-end"  >
-          <ColorButton onClick={goHome}>Home</ColorButton>
-          <ColorButton onClick={goInfo}>Info</ColorButton>
-          <ColorButton onClick={goAbout}>About</ColorButton>
+    <div>
+      <Grid container alignItems="center" justify="center" alignContent="center" style={{borderBottom: "1px solid #367460"}}>
+        <Grid item xs={6} sm={3} >
+          <div style={{textAlign: "left", display: "flex", alignItems: "center", margin: "10px"}}>
+            <img className="image" src="/images/MathLaw.PNG"></img>
+            <div>
+              <a href="https://www.linkedin.com/company/matchlawstudent/about/" target="_blank">
+              <IconButton variant="link" component="span" style={{width: "15px", height: "15px"}}>    
+                  <LinkedInIcon style={{fontSize: "1.2em"}}/>
+                </IconButton>
+              </a>
+                <IconButton variant="link" component="span" style={{width: "15px", height: "15px"}} >
+                  <InstagramIcon style={{fontSize: "1.2em"}}/>
+                </IconButton>
+                <IconButton variant="link" component="span" style={{width: "15px", height: "15px"}} >
+                  <FacebookIcon style={{fontSize: "1.2em"}}/>
+                </IconButton>
+            </div>
+          </div>
+        </Grid>
+        <Grid item xs={6} sm={6} style={{textAlign: "center"}}>
+          <h1>Match Law Student</h1>
+        </Grid>
+        <Grid item xs={12} sm={3} style={{textAlign: "center"}} >
           <ColorButton >Sign Up</ColorButton>
           <ColorButton >Log In</ColorButton>
         </Grid>
       </Grid>
-    </Grid>
+      <Grid container justify="center">
+        <Breadcrumbs >
+          <Link color="inherit" href="/" onClick={(e) => handleClick(e, "/")}>
+            Home
+          </Link>
+          <Link color="inherit" href="/info" onClick={(e) => handleClick(e, "/info")}>
+            Legal Information
+          </Link>
+          <Link color="inherit" href="/about" onClick={(e) => handleClick(e, "/about")}>
+            About
+          </Link>
+        </Breadcrumbs>
+      </Grid>
+    </div>
     
   );
 }

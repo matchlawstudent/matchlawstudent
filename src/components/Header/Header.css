@@ -41,3 +41,10 @@ button style
 .toolbar {
     background: #CABDB0;
 }
+
+.image {
+    width: 15%;
+    height: 15%;
+    min-width: 103.73px;
+    min-height: 100px;
+}
