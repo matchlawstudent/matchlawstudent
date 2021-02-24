@@ -1,0 +1,26 @@
+.info-grid {
+    color: white;
+    padding: 2%;
+    text-align: left;  
+    border-radius: 15px;
+}
+
+#info-grid-one {
+    background: #367460;
+    margin: 10px;
+}
+
+#info-grid-two {
+    background: #384728;
+    margin: 10px;
+}
+
+#info-grid-three {
+    background: #000000;    
+    margin: 10px;
+}
+
+.link-style {
+    text-decoration: none;
+    color: white;
+}

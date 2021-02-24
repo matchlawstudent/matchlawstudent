@@ -13,10 +13,10 @@ import './TeamPage.css';
 
 export default function TeamPage() {
   return (
-    <div >
+    <div style={{textAlign: "center"}}>
       <h1 style={{margin: "3%", fontStyle: "normal", fontWeight: "400", fontSize: "36px"}}>Our Team</h1>
       <Grid container spacing={0} 
-      alignItems="center"
+      alignItems="flex-start"
       justify="center">          
         {TeamData.teamData.map((member) => (
           <Grid item xs={12} sm={4} className="person" style={{marginBottom: "50px"}} key={member.name}>
