@@ -31,14 +31,14 @@ function Footer() {
                 <div className="footer-link-wrapper">
                     <div class="vl"></div>
                     <div class="footer-link-items">
-                        <h2>MLS</h2>
+                        <h4>MLS</h4>
                         <Link to="/">About Us</Link>
                         <Link to="/">Contact Us</Link>
                         <Link to="/">Our Team</Link>
                     </div>
                     <div class="vl"></div>
                     <div class="footer-link-items">
-                        <h2>LEGAL</h2>
+                        <h4>LEGAL</h4>
                         <Link to="/">Privacy Policy</Link>
                         <Link to="/">Terms & Conditions</Link>
                         <Link to="/">Copyright Compliance Policy</Link>
@@ -47,13 +47,13 @@ function Footer() {
                 <div className="footer-link-wrapper">
                     <div class="vl"></div>
                     <div class="footer-link-items">
-                        <h2>Parters</h2>
+                        <h4>Parters</h4>
                         <Link to="/">University 1</Link>
                         <Link to="/">NPO 1</Link>
                     </div>
                     <div class="vl"></div>
                     <div class="footer-link-items">
-                        <h2>Social Media</h2>
+                        <h4>Social Media</h4>
                         <Link to="/">Instagram</Link>
                         <Link to="/">Facebook</Link>
                         <Link to="/">LinkedIn</Link>

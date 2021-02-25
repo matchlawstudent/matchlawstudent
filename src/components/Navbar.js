@@ -34,7 +34,6 @@ function Navbar() {
                         onClick={closeMobileMenu}
                     >
                         MLS
-                        <image className="navbar-logoImage" src="/"></image>
                     </Link>
                     <div className="menu-icon" onClick={handleClick}>
                         <i className={click ? "fas fa-times" : "fas fa-bars"} />
