@@ -22,14 +22,14 @@ export default function TeamPage() {
           <Grid item xs={12} sm={4} className="person" style={{marginBottom: "50px"}} key={member.name}>
             <Avatar src={member.image} className="avatar" style={{width: "150px", height: "150px"}}></Avatar>
             <p style={{marginLeft: "10%", marginRight: "10%", textAlign: "left"}}>
-            <span style={{fontWeight: "bold"}}>{member.name}</span>
-            <br></br><br></br>
-            {member.bio}</p>
+            <span style={{fontWeight: "bold"}}>{member.name}</span> 
             <a href={member.linkedin} target="_blank">
               <IconButton variant="link" color="primary" component="span" >
-                <LinkedInIcon style={{fontSize: "30px"}}/>
+                <LinkedInIcon style={{fontSize: "20px", }}/>
               </IconButton>
             </a>
+            <br></br><br></br>
+            {member.bio}</p>
           </Grid>
         ))}
       </Grid>
