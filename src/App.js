@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "./App.css";
 import Home from "./components/pages/home.js";
 // import Information from "./components/pages/Information";
-import Team from "./components/pages/Team";
+import Team from "./components/pages/TeamPage/Team";
 import Contact from "./components/pages/Contact";
 
 function App() {
