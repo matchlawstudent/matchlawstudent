@@ -14,7 +14,7 @@ import './Team.css';
 export default function Team() {
   return (
     <div className="root">
-      <h1 className="team">Our Team</h1>
+      <h1 className="team-header">Our Team</h1>
       <Grid container spacing={0} 
       alignItems="flex-start"
       justify="center">          
