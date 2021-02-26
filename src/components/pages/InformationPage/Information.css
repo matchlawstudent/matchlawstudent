@@ -1,0 +1,42 @@
+.info-grid {
+    color: white;
+    padding: 20px;
+    text-align: left;  
+    border-radius: 15px;
+    line-height: 2em;
+}
+
+#info-grid-one {
+    background: #367460;
+    margin: 10px;
+}
+
+#info-grid-two {
+    background: #384728;
+    margin: 10px;
+}
+
+#info-grid-three {
+    background: #000000;    
+    margin: 10px;
+}
+
+.link-style {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+.title {
+    margin: 3%;
+    text-align: center;
+}
+
+.info-header {
+    margin-bottom: 3%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    color: black;
+    padding: 1.5%;
+}

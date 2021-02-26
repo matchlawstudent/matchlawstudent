@@ -6,6 +6,7 @@ import Home from "./components/pages/home.js";
 // import Information from "./components/pages/Information";
 import Team from './components/pages/TeamPage/Team.js';
 import Contact from "./components/pages/Contact";
+import Information from "./components/pages/InformationPage/Information";
 
 function App() {
     return (
@@ -14,7 +15,7 @@ function App() {
                 <Navbar />
                 <Switch>
                     <Route path="/" exact component={Home} />
-                    {/* <Route path="/information" component={Information} /> */}
+                    <Route path="/information" component={Information} />
                     <Route path="/team" component={Team} />
                     <Route path="/contect" component={Contact} />
                 </Switch>

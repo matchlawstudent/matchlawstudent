@@ -21,15 +21,16 @@ export default function Team() {
         {TeamData.teamData.map((member) => (
           <Grid item xs={12} sm={4} className="person" style={{marginBottom: "50px"}} key={member.name}>
             <Avatar src={member.image} className="avatar" style={{width: "150px", height: "150px"}}></Avatar>
-            <p style={{marginLeft: "10%", marginRight: "10%", textAlign: "left"}}>
-            <span style={{fontWeight: "bold"}}>{member.name}</span> 
+            <p className="team-text">
+            <span style={{fontWeight: "bold", fontSize: "15px"}}>{member.name}</span> 
             <a href={member.linkedin} target="_blank">
               <IconButton variant="link" color="primary" component="span" >
                 <LinkedInIcon style={{fontSize: "20px", }}/>
               </IconButton>
             </a>
             <br></br><br></br>
-            {member.bio}</p>
+              {member.bio}
+            </p>
           </Grid>
         ))}
       </Grid>
