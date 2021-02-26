@@ -20,7 +20,7 @@ export default function Team() {
       justify="center">          
         {TeamData.teamData.map((member) => (
           <Grid item xs={12} sm={4} className="person" style={{marginBottom: "50px"}} key={member.name}>
-            <Avatar src={member.image} className="avatar"></Avatar>
+            <Avatar src={member.image} className="avatar" style={{width: "150px", height: "150px"}}></Avatar>
             <p style={{marginLeft: "10%", marginRight: "10%", textAlign: "left"}}>
             <span style={{fontWeight: "bold"}}>{member.name}</span> 
             <a href={member.linkedin} target="_blank">
