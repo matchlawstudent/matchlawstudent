@@ -35,7 +35,7 @@ export default {
             name: "Khai Tran",
             image: "/images/khai.jpg",
             bio: "I’m Khai Tran. I proud that I become a Full-Stack Software Developer at MatchLawsStudent. My goal is to do "+
-            "as much as possible to finish the job. I am very happy when I see the good result from work.”",
+            "as much as possible to finish the job. I am very happy when I see the good result from work.",
             linkedin: "https://www.linkedin.com/in/khaithetran/"
 
         },

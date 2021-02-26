@@ -34,7 +34,7 @@ export default function Header() {
   return (
     <div>
       <Grid container alignItems="center" justify="center" alignContent="center" style={{borderBottom: "1px solid #367460"}}>
-        <Grid item xs={6} sm={3} >
+        <Grid item xs={6} sm={8} >
           <div style={{textAlign: "left", display: "flex", alignItems: "center", margin: "10px"}}>
             <img className="image" src="/images/MathLaw.PNG"></img>
             <div>
@@ -52,26 +52,27 @@ export default function Header() {
             </div>
           </div>
         </Grid>
-        <Grid item xs={6} sm={6} style={{textAlign: "center"}}>
-          <h1>Match Law Student</h1>
+        <Grid item xs={6} sm={4}>
+          <div style={{textAlign: "right", margin: "atuo"}}>
+            <Breadcrumbs >
+              <Link color="inherit" href="/" onClick={(e) => handleClick(e, "/")}>
+                Home
+              </Link>
+              <Link color="inherit" href="/info" onClick={(e) => handleClick(e, "/info")}>
+                Legal Information
+              </Link>
+              <Link color="inherit" href="/about" onClick={(e) => handleClick(e, "/about")}>
+                About
+              </Link>
+              <Link color="inherit" href="/about" onClick={(e) => handleClick(e, "/about")}>
+                Login
+              </Link>
+              <Link color="inherit" href="/about" onClick={(e) => handleClick(e, "/about")}>
+                Sign Up
+              </Link>
+            </Breadcrumbs>
+          </div>
         </Grid>
-        <Grid item xs={12} sm={3} style={{textAlign: "center"}} >
-          <ColorButton >Sign Up</ColorButton>
-          <ColorButton >Log In</ColorButton>
-        </Grid>
-      </Grid>
-      <Grid container justify="center">
-        <Breadcrumbs >
-          <Link color="inherit" href="/" onClick={(e) => handleClick(e, "/")}>
-            Home
-          </Link>
-          <Link color="inherit" href="/info" onClick={(e) => handleClick(e, "/info")}>
-            Legal Information
-          </Link>
-          <Link color="inherit" href="/about" onClick={(e) => handleClick(e, "/about")}>
-            About
-          </Link>
-        </Breadcrumbs>
       </Grid>
     </div>
     

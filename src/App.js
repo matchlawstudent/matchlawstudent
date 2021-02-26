@@ -11,6 +11,8 @@ import './App.css';
 import TeamPage from './components/TeamPage/TeamPage'; 
 import Header from './components/Header/Header';
 import InformationPage from './components/InformationPage/InformationPage';
+import Home from './components/HomePage/Home';
+import NavBar from './components/HomePage/NavBar/NavBar';
 
 
 function App() {
@@ -20,7 +22,7 @@ function App() {
       <Header/>
       <Switch>
         <Route exact path="/">
-          <TeamPage />
+          <Home />
         </Route>
         <Route path="/about">
           <TeamPage />
