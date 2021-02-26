@@ -6,7 +6,7 @@ import "./HeroSection.css";
 function HeroSection() {
     return (
         <div className="hero-container">
-            {/* <img src="../images/mls_logo_background.png"></img> */}
+            {/* <img src="/images/mls_logo_background.png"></img> */}
             <h1>Match Law Students</h1>
             <p>Bridge The Gap of Legal Access</p>
 
