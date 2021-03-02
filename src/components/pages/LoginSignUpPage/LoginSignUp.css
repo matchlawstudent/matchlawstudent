@@ -4,13 +4,14 @@ body {
 * {
     box-sizing: border-box;
 }
-.h1 {
+.h1signin {
     margin-right: 260px;
     color: darkolivegreen;
 }
-span {
+.arrow {
     font-size: 25px;
 }
+
 /* input fields with full size*/
 input[type="text"],
 input[type="password"] {
@@ -106,21 +107,27 @@ signupbtn {
     width: 45%;
     margin-left: 80px;
     background-color:#546A9E;
+   
 }
 .Google {
     width: 45%;
     margin-left: 80px;
     background-color:#D16554;
+    
 }
 .Twitter {
     width: 45%;
     margin-left: 80px;
     background-color:#52B2EA;
+    
 }
 .LinkedIn {
     width: 45%;
+    height: 50px;
     margin-left: 80px;
     background-color:#3F87B8;
+    color: #3F87B8;
+    
 }
 /* Padding for container*/
 .container {

@@ -6,6 +6,8 @@ import InstagramIcon from '@material-ui/icons/Instagram';
 import FacebookIcon from '@material-ui/icons/Facebook';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import Facebook from "./fbLogin";
+import Google from "./ggleLogin";
+import LinkedInSign from "./linkendSignin";
 class Login extends Component {
     render() {
      
@@ -27,7 +29,7 @@ class Login extends Component {
                         </div>
                 <div class="grid-item1">
                     <form>
-                        <h1 class = "h1">Sign In</h1>
+                        <h1 class = "h1signin">Sign In</h1>
                         
                         <label for="email">
                             <b>Email</b>
@@ -45,7 +47,7 @@ class Login extends Component {
                         <p>By Signing in, you agree to <a href="#">Term of Use</a>.</p>
                         <div class="clearfix">
                             I don’t have an account 
-                            <span>&rarr;</span>
+                            <span className = "arrow">&rarr;</span>
                             <button type="button" class="loginbtn">Sign Up</button>
                         </div>
                     </form>
@@ -58,11 +60,11 @@ class Login extends Component {
                     <br/><br/><br/><br/>
                     <Facebook/>
                     <br/>
-                    <button type="button" class="Google" >Sign in with Google</button>
+                    <Google/>
                     <br/>
-                    <button type="button" class="Twitter" >Sign in with Twitter</button>
+                    <LinkedInSign/>
                     <br/>
-                    <button type="button" class="LinkedIn">Sign in with LinkedIn</button>
+                    <button type="button" class="Twitter">Sign in with LinkedIn</button>
                 </div>
             </div>
         );
