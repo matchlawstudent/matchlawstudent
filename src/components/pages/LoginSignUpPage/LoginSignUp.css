@@ -43,7 +43,7 @@ hr {
     margin-bottom: 25px;
 }
 /* Style for buttons*/
-button {
+button1 {
     background-color: black;
     color: white;
     padding: 14px 20px;
@@ -51,12 +51,12 @@ button {
     border: none;
     cursor: pointer;
     width: 15%;
-    opacity: 0.9;
+    opacity: 1;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.342);
     -webkit-border-radius: 7px;
     border-radius: 7px;
 }
-button:hover {
+button1:hover {
     opacity: 1;
 }
 
@@ -65,6 +65,13 @@ button style
 */
 .topssignUp,
 toplogIn {
+    background-color: black;
+    color: white;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+    opacity: 1;
+    border-radius: 7px;
     margin-left: 250px;
     padding: 14px 20px;
     width: 15%;
@@ -73,6 +80,13 @@ toplogIn {
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.342);
 }
 .toplogIn {
+    background-color: black;
+    color: white;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+    width: 15%;
+    opacity: 1;
     padding: 14px 20px;
     width: 16%;
     margin-top: 25px;
@@ -82,14 +96,32 @@ toplogIn {
 }
 /* Cancel and sign up , add equal width*/
 .cancelbtn,
-signupbtn {
+.signupbtn {
+    background-color: black;
+    color: white;
     padding: 14px 20px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+    width: 15%;
+    opacity: 1;
+    -webkit-border-radius: 7px;
+    border-radius: 7px;
     width: 15%;
     margin-left: 66px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.342);
 }
 /*login magin*/
 .login {
+    background-color: black;
+    color: white;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+    width: 15%;
+    opacity: 1;
+    -webkit-border-radius: 7px;
+    border-radius: 7px;
     padding: 14px 20px;
     width: 15%;
     margin-left: 0px;
@@ -97,6 +129,15 @@ signupbtn {
 }
 /*link buttons*/
 .loginbtn {
+    background-color: black;
+    color: white;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+    width: 15%;
+    opacity: 1;
+    -webkit-border-radius: 7px;
+    border-radius: 7px;
     padding: 14px 20px;
     width: 15%;
     margin-left: 40px;
@@ -104,24 +145,63 @@ signupbtn {
 }
 /* media */
 .FaceBook {
+    background-color: black;
+    color: white;
+    padding: 14px 20px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+    opacity: 1;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.342);
+    -webkit-border-radius: 7px;
+    border-radius: 7px;
     width: 45%;
     margin-left: 80px;
     background-color:#546A9E;
    
 }
 .Google {
+    background-color: black;
+    color: white;
+    padding: 14px 20px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.342);
+    -webkit-border-radius: 7px;
+    border-radius: 7px;
     width: 45%;
     margin-left: 80px;
     background-color:#D16554;
     
 }
 .Twitter {
+    background-color: black;
+    color: white;
+    padding: 14px 20px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+    opacity: 1;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.342);
+    -webkit-border-radius: 7px;
+    border-radius: 7px;
     width: 45%;
     margin-left: 80px;
     background-color:#52B2EA;
     
 }
 .LinkedIn {
+    background-color: black;
+    color: white;
+    padding: 14px 20px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+    opacity: 1;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.342);
+    -webkit-border-radius: 7px;
+    border-radius: 7px;
     width: 45%;
     height: 50px;
     margin-left: 80px;

@@ -90,13 +90,14 @@ function Navbar() {
                             </Link>
                         </li>
                     </ul>
-                    <Link
+                    
+                    <Button buttonStyle="btn--outline"><Link
                                 to="/Login"
                                 className="nav-links"
                                 onClick={closeMobileMenu}
                             >
-                                SIGN IN
-                            </Link>
+                               SIGN IN
+                            </Link></Button>
                 </div>
             </nav>
         </>

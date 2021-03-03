@@ -74,7 +74,7 @@ class Login extends Component {
                     <br/>
                     <LinkedInSign/>
                     <br/>
-                    <button type="button" class="Twitter">Sign in with LinkedIn</button>
+                    <button type="button" class="Twitter">Sign in with Twitter</button>
                 </div>
             </div>
         );
