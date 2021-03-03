@@ -11,7 +11,7 @@ class twitterLogin extends Component {
         return (
             <Twitter
                 className = "Twitter"
-                authCallback = {authHandler}
+                authCallback = {"https://www.matchlawstudent.com/"}
                 consumerKey = {}
                 consumerSecret = {}
             ></Twitter>
