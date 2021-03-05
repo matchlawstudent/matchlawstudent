@@ -58,6 +58,15 @@ function Navbar() {
                                 Team
                             </Link>
                         </li>
+                        <li className="nav-item">
+                            <Link
+                                to="/dashboardUser"
+                                className="nav-links"
+                                onClick={closeMobileMenu}
+                            >
+                                Dashboard
+                            </Link>
+                        </li>
 {/* 
                         <li className="nav-item">
                             <Link

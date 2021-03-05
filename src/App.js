@@ -7,6 +7,7 @@ import Home from "./components/pages/home.js";
 import Team from './components/pages/TeamPage/Team.js';
 import Contact from "./components/pages/Contact";
 import Information from "./components/pages/InformationPage/Information";
+import DashboardUser from './components/pages/Dashboard/DashboardUser';
 
 function App() {
     return (
@@ -18,6 +19,8 @@ function App() {
                     <Route path="/information" component={Information} />
                     <Route path="/team" component={Team} />
                     <Route path="/contect" component={Contact} />
+                    <Route path="/dashboardUser" component={DashboardUser} />
+
                 </Switch>
             </Router>
         </>
