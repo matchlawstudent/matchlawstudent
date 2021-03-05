@@ -11,13 +11,12 @@ class linkendSignin extends Component {
         return(
             <LinkedIn
             clientId = "86ley709u4x4hu"
-            
             onFailure = {this.responseLinkedIn}
             onSuccess = {this.responseLinkedIn}
             redirectUri = "https://www.matchlawstudent.com" 
             className = "LinkedIn"
             scope = 'r_emailaddress'
-            ><img src={linkedin} alt="Log in with Linked In" style={{ maxWidth: '260px'}} /></LinkedIn>
+            ><img src={linkedin} alt="Log in with Linked In" style={{ maxWidth: '245px'}} /></LinkedIn>
         );
     }
 }

@@ -8,7 +8,7 @@ import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import Facebook from "./fbLogin";
 import Google from "./ggleLogin";
 import LinkedInSign from "./linkendSignin";
-//import TwitterSign from "./twitterLogin";
+import TwitterSign from "./twitterLogin";
 import { Link } from "react-router-dom";
 
 class Login extends Component {
@@ -72,6 +72,7 @@ class Login extends Component {
                     <div class="vl"></div>
                 </div>
                 <div class="grid-item">
+                    <form>
                     <br/><br/><br/><br/>
                     <Facebook/>
                     <br/>
@@ -79,7 +80,8 @@ class Login extends Component {
                     <br/>
                     <LinkedInSign/>
                     <br/>
-                    <button type="button" class="Twitter">Sign in with Twitter</button>
+                    <TwitterSign/>
+                    </form>
                 </div>
             </div>
         );
