@@ -145,50 +145,19 @@ toplogIn {
 }
 /* media */
 .FaceBook {
-    padding: 14px 20px;
-    margin: 10px;
-    border: none;
-    cursor: pointer;
-    opacity: 1;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.342);
-    -webkit-border-radius: 7px;
-    border-radius: 7px;
-    width: 45%;
-    margin-left: 80px;
-    background-color:#546A9E;
-   
+    margin-left: -180px;
+    margin-top: -40px;
 }
-.Google {
-    
-    width: 45%;
-    margin-left: 80px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.342);
-    -webkit-border-radius: 7px;
-}
-.Twitter {
-   
-    padding: 14px 20px;
-    border: none;
-    cursor: pointer;
-    opacity: 1;
-    border-radius: 7px;
-    width: 45%;
-    margin-left: 80px;
-    background-color:#52B2EA;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.342);
-    -webkit-border-radius: 7px;
-    
-}
+
 .LinkedIn {
     padding: 14px 20px;
-    margin: 10px;
+    margin-top: -20px;
     
     border-radius: 7px;
     width: 1px;
-    height: 50px;
-    margin-left: 80px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.342);
-    -webkit-border-radius: 7px;
+    height: 10px;
+    margin-left: 70px;
+    
     
 }
 /* Padding for container*/

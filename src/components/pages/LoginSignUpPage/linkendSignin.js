@@ -16,7 +16,7 @@ class linkendSignin extends Component {
             redirectUri = "https://www.matchlawstudent.com" 
             className = "LinkedIn"
             scope = 'r_emailaddress'
-            ><img src={linkedin} alt="Log in with Linked In" style={{ maxWidth: '245px'}} /></LinkedIn>
+            ><img src={linkedin} alt="Log in with Linked In" style={{ maxWidth: '220px'}} /></LinkedIn>
         );
     }
 }

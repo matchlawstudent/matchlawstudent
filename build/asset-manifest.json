@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/matchlawstudent.github.io/static/css/main.f8bad33d.chunk.css",
-    "main.js": "/matchlawstudent.github.io/static/js/main.0f8d8f54.chunk.js",
-    "main.js.map": "/matchlawstudent.github.io/static/js/main.0f8d8f54.chunk.js.map",
+    "main.css": "/matchlawstudent.github.io/static/css/main.70a15617.chunk.css",
+    "main.js": "/matchlawstudent.github.io/static/js/main.864f6fd0.chunk.js",
+    "main.js.map": "/matchlawstudent.github.io/static/js/main.864f6fd0.chunk.js.map",
     "runtime-main.js": "/matchlawstudent.github.io/static/js/runtime-main.45c247b1.js",
     "runtime-main.js.map": "/matchlawstudent.github.io/static/js/runtime-main.45c247b1.js.map",
-    "static/js/2.69251419.chunk.js": "/matchlawstudent.github.io/static/js/2.69251419.chunk.js",
-    "static/js/2.69251419.chunk.js.map": "/matchlawstudent.github.io/static/js/2.69251419.chunk.js.map",
+    "static/js/2.73b70c23.chunk.js": "/matchlawstudent.github.io/static/js/2.73b70c23.chunk.js",
+    "static/js/2.73b70c23.chunk.js.map": "/matchlawstudent.github.io/static/js/2.73b70c23.chunk.js.map",
     "index.html": "/matchlawstudent.github.io/index.html",
-    "static/css/main.f8bad33d.chunk.css.map": "/matchlawstudent.github.io/static/css/main.f8bad33d.chunk.css.map",
-    "static/js/2.69251419.chunk.js.LICENSE.txt": "/matchlawstudent.github.io/static/js/2.69251419.chunk.js.LICENSE.txt",
+    "static/css/main.70a15617.chunk.css.map": "/matchlawstudent.github.io/static/css/main.70a15617.chunk.css.map",
+    "static/js/2.73b70c23.chunk.js.LICENSE.txt": "/matchlawstudent.github.io/static/js/2.73b70c23.chunk.js.LICENSE.txt",
     "static/media/crystal.e40ece16.jpg": "/matchlawstudent.github.io/static/media/crystal.e40ece16.jpg",
     "static/media/flower.c2ab8e8b.jpg": "/matchlawstudent.github.io/static/media/flower.c2ab8e8b.jpg",
     "static/media/jason.6025c1b8.jpg": "/matchlawstudent.github.io/static/media/jason.6025c1b8.jpg",
@@ -20,8 +20,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.45c247b1.js",
-    "static/js/2.69251419.chunk.js",
-    "static/css/main.f8bad33d.chunk.css",
-    "static/js/main.0f8d8f54.chunk.js"
+    "static/js/2.73b70c23.chunk.js",
+    "static/css/main.70a15617.chunk.css",
+    "static/js/main.864f6fd0.chunk.js"
   ]
 }

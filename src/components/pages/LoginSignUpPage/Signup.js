@@ -5,10 +5,8 @@ import fl from '../../../images/logo.png';
 import InstagramIcon from '@material-ui/icons/Instagram';
 import FacebookIcon from '@material-ui/icons/Facebook';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
-import Facebook from "./fbLogin";
-import Google from "./ggleLogin";
 import LinkedInSign from "./linkendSignin";
-import TwitterLogin from "./twitterLogin";
+import MediaLogin from './mediaLogin';
 import { Link } from "react-router-dom";
 class Login extends Component {
     render() {
@@ -70,13 +68,8 @@ class Login extends Component {
                 <div class="grid-item">
                 <form>
                     <br/><br/><br/><br/>
-                    <Facebook/>
-                    <br/>
-                    <Google/>
-                    <br/>
+                    <MediaLogin/>
                     <LinkedInSign/>
-                    <br/>
-                    <TwitterLogin/>
                     </form>
                 </div>
             </div>
