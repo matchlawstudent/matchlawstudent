@@ -66,4 +66,24 @@
     padding: 10px;
     display: inline-flex;
 }
+.titleNButton {
+    display: flex;
+    flex-direction: 'row';
+    justify-content: space-between;
+    align-items: center;
+}
+
+.plusButton {
+    background-color: #367460;
+    border-radius: 50%;
+    padding-right: 6px;
+    padding-left: 6px;
+    align-self: end; 
+    margin-right: 20px;
+    margin-bottom: 10px;
+    color: white;
+    font-size: bold;
+    border-color: #367460;
+}
+
 
