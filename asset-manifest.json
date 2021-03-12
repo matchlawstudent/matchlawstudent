@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/matchlawstudent.github.io/static/css/main.40147ca1.chunk.css",
-    "main.js": "/matchlawstudent.github.io/static/js/main.5b7284ef.chunk.js",
-    "main.js.map": "/matchlawstudent.github.io/static/js/main.5b7284ef.chunk.js.map",
+    "main.css": "/matchlawstudent.github.io/static/css/main.8dac2c58.chunk.css",
+    "main.js": "/matchlawstudent.github.io/static/js/main.260b27e0.chunk.js",
+    "main.js.map": "/matchlawstudent.github.io/static/js/main.260b27e0.chunk.js.map",
     "runtime-main.js": "/matchlawstudent.github.io/static/js/runtime-main.45c247b1.js",
     "runtime-main.js.map": "/matchlawstudent.github.io/static/js/runtime-main.45c247b1.js.map",
-    "static/js/2.dd41ce61.chunk.js": "/matchlawstudent.github.io/static/js/2.dd41ce61.chunk.js",
-    "static/js/2.dd41ce61.chunk.js.map": "/matchlawstudent.github.io/static/js/2.dd41ce61.chunk.js.map",
+    "static/js/2.0c2877f5.chunk.js": "/matchlawstudent.github.io/static/js/2.0c2877f5.chunk.js",
+    "static/js/2.0c2877f5.chunk.js.map": "/matchlawstudent.github.io/static/js/2.0c2877f5.chunk.js.map",
     "index.html": "/matchlawstudent.github.io/index.html",
-    "static/css/main.40147ca1.chunk.css.map": "/matchlawstudent.github.io/static/css/main.40147ca1.chunk.css.map",
-    "static/js/2.dd41ce61.chunk.js.LICENSE.txt": "/matchlawstudent.github.io/static/js/2.dd41ce61.chunk.js.LICENSE.txt",
+    "static/css/main.8dac2c58.chunk.css.map": "/matchlawstudent.github.io/static/css/main.8dac2c58.chunk.css.map",
+    "static/js/2.0c2877f5.chunk.js.LICENSE.txt": "/matchlawstudent.github.io/static/js/2.0c2877f5.chunk.js.LICENSE.txt",
     "static/media/crystal.e40ece16.jpg": "/matchlawstudent.github.io/static/media/crystal.e40ece16.jpg",
     "static/media/flower.c2ab8e8b.jpg": "/matchlawstudent.github.io/static/media/flower.c2ab8e8b.jpg",
     "static/media/jason.6025c1b8.jpg": "/matchlawstudent.github.io/static/media/jason.6025c1b8.jpg",
+    "static/media/juno.1dfda5c0.jpg": "/matchlawstudent.github.io/static/media/juno.1dfda5c0.jpg",
     "static/media/khai.fbd5aae5.jpg": "/matchlawstudent.github.io/static/media/khai.fbd5aae5.jpg",
     "static/media/HeroSection.css": "/matchlawstudent.github.io/static/media/mls_logo.0ab85c71.png",
-    "static/media/mls_logo_small.2dbdef94.png": "/matchlawstudent.github.io/static/media/mls_logo_small.2dbdef94.png",
     "static/media/sam.05726717.jpg": "/matchlawstudent.github.io/static/media/sam.05726717.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.45c247b1.js",
-    "static/js/2.dd41ce61.chunk.js",
-    "static/css/main.40147ca1.chunk.css",
-    "static/js/main.5b7284ef.chunk.js"
+    "static/js/2.0c2877f5.chunk.js",
+    "static/css/main.8dac2c58.chunk.css",
+    "static/js/main.260b27e0.chunk.js"
   ]
 }
