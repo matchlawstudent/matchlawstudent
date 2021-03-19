@@ -9,7 +9,6 @@ import Contact from "./components/pages/Contact";
 import Information from "./components/pages/InformationPage/Information";
 import Login from "./components/pages/LoginSignUpPage/Login.js";
 import Signup from "./components/pages/LoginSignUpPage/Signup.js";
-//import meidaLogin from "./components/pages/LoginSignUpPage/mediaLogin";
 
 function App() {
     return (
