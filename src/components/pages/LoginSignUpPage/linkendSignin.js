@@ -3,6 +3,8 @@ import { maxHeight } from "@material-ui/system";
 import React, { Component} from 'react';
 import LinkedIn from 'react-linkedin-login-oauth2';
 import linkedin from 'react-linkedin-login-oauth2/assets/linkedin.png';
+
+
 class linkendSignin extends Component {
     responseLinkedIn(response){
         console.log(response);

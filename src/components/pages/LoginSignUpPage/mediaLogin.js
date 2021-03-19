@@ -5,6 +5,7 @@ firebase.initializeApp({
     apiKey: "AIzaSyAl4S2Y9Q_KGHAfgNcqmqYHOL6cORxyVRk",
     authDomain: "law-tech-platform-7c6bc.firebaseapp.com"
 })
+
 class mediaLogin extends Component {
     state = {isSignedIn: false}
     uiConfig = {
