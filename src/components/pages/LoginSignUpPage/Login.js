@@ -73,7 +73,6 @@ class Login extends Component {
                     <form>
                     <br/><br/><br/><br/>
                     <MediaLogin/>
-                    <LinkedInSign/>
                     </form>
                 </div>
             </div>
