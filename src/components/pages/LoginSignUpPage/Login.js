@@ -1,7 +1,6 @@
 import React, { Component, useState } from 'react';
 import "./LoginSignUp.css";
 import k from '../../../images/mls_logo_small.png';
-
 import InstagramIcon from '@material-ui/icons/Instagram';
 import FacebookIcon from '@material-ui/icons/Facebook';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
@@ -74,7 +73,6 @@ class Login extends Component {
                     <form>
                     <br/><br/><br/><br/>
                     <MediaLogin/>
-                    <LinkedInSign/>
                     </form>
                 </div>
             </div>

@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import firebase from "firebase";
 import StyledFirebaseAuth from "react-firebaseui/StyledFirebaseAuth";
+import LinkedInSign from "./linkendSignin";
 firebase.initializeApp({
     apiKey: "AIzaSyAl4S2Y9Q_KGHAfgNcqmqYHOL6cORxyVRk",
     authDomain: "law-tech-platform-7c6bc.firebaseapp.com"
@@ -41,6 +42,7 @@ class mediaLogin extends Component {
                     firebaseAuth = {firebase.auth()}
                     />
                 )}
+                <LinkedInSign/>
             </div>
         )
     }

@@ -1,11 +1,9 @@
 import React, { Component, useState } from 'react';
 import "./LoginSignUp.css";
 import k from '../../../images/mls_logo_small.png';
-import fl from '../../../images/logo.png';
 import InstagramIcon from '@material-ui/icons/Instagram';
 import FacebookIcon from '@material-ui/icons/Facebook';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
-import LinkedInSign from "./linkendSignin";
 import MediaLogin from './mediaLogin';
 import { Link } from "react-router-dom";
 class Login extends Component {
@@ -69,7 +67,6 @@ class Login extends Component {
                 <form>
                     <br/><br/><br/><br/>
                     <MediaLogin/>
-                    <LinkedInSign/>
                     </form>
                 </div>
             </div>
