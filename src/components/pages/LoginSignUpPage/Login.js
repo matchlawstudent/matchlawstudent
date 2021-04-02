@@ -50,7 +50,7 @@ class Login extends Component {
                         <input type="password" placeholder="Please Enter Password" name="passw" required/>
                         <br/>
                         <label>
-                            <input type="checkbox" checked="checked" name="remember"/> Remember Me
+                            <input type="checkbox"  name="remember"/> Remember Me
                         </label><br/>
                         <button type="submit" class="login">Log In</button>
                         <p>By Signing in, you agree to <a href="#">Term of Use</a>.</p>
