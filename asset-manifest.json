@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/matchlawstudent.github.io/static/css/main.8860bdd6.chunk.css",
-    "main.js": "/matchlawstudent.github.io/static/js/main.cd8096b6.chunk.js",
-    "main.js.map": "/matchlawstudent.github.io/static/js/main.cd8096b6.chunk.js.map",
-    "runtime-main.js": "/matchlawstudent.github.io/static/js/runtime-main.45c247b1.js",
-    "runtime-main.js.map": "/matchlawstudent.github.io/static/js/runtime-main.45c247b1.js.map",
-    "static/js/2.bc57fee0.chunk.js": "/matchlawstudent.github.io/static/js/2.bc57fee0.chunk.js",
-    "static/js/2.bc57fee0.chunk.js.map": "/matchlawstudent.github.io/static/js/2.bc57fee0.chunk.js.map",
+    "main.css": "/matchlawstudent.github.io/static/css/main.0ebe0bbe.chunk.css",
+    "main.js": "/matchlawstudent.github.io/static/js/main.828221be.chunk.js",
+    "main.js.map": "/matchlawstudent.github.io/static/js/main.828221be.chunk.js.map",
+    "runtime-main.js": "/matchlawstudent.github.io/static/js/runtime-main.def6b494.js",
+    "runtime-main.js.map": "/matchlawstudent.github.io/static/js/runtime-main.def6b494.js.map",
+    "static/js/2.ce6889d3.chunk.js": "/matchlawstudent.github.io/static/js/2.ce6889d3.chunk.js",
+    "static/js/2.ce6889d3.chunk.js.map": "/matchlawstudent.github.io/static/js/2.ce6889d3.chunk.js.map",
     "index.html": "/matchlawstudent.github.io/index.html",
-    "static/css/main.8860bdd6.chunk.css.map": "/matchlawstudent.github.io/static/css/main.8860bdd6.chunk.css.map",
-    "static/js/2.bc57fee0.chunk.js.LICENSE.txt": "/matchlawstudent.github.io/static/js/2.bc57fee0.chunk.js.LICENSE.txt",
+    "static/css/main.0ebe0bbe.chunk.css.map": "/matchlawstudent.github.io/static/css/main.0ebe0bbe.chunk.css.map",
+    "static/js/2.ce6889d3.chunk.js.LICENSE.txt": "/matchlawstudent.github.io/static/js/2.ce6889d3.chunk.js.LICENSE.txt",
     "static/media/crystal.e40ece16.jpg": "/matchlawstudent.github.io/static/media/crystal.e40ece16.jpg",
     "static/media/flower.c2ab8e8b.jpg": "/matchlawstudent.github.io/static/media/flower.c2ab8e8b.jpg",
     "static/media/jason.6025c1b8.jpg": "/matchlawstudent.github.io/static/media/jason.6025c1b8.jpg",
@@ -20,9 +20,9 @@
     "static/media/sam.05726717.jpg": "/matchlawstudent.github.io/static/media/sam.05726717.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.45c247b1.js",
-    "static/js/2.bc57fee0.chunk.js",
-    "static/css/main.8860bdd6.chunk.css",
-    "static/js/main.cd8096b6.chunk.js"
+    "static/js/runtime-main.def6b494.js",
+    "static/js/2.ce6889d3.chunk.js",
+    "static/css/main.0ebe0bbe.chunk.css",
+    "static/js/main.828221be.chunk.js"
   ]
 }
