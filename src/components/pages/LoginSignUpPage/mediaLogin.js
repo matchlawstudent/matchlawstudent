@@ -31,19 +31,19 @@ class mediaLogin extends Component {
             <div>
                 {this.state.isSignedIn? (
                     <span>
-                        <div> Sign In!</div>
-                        <button onClick = {() => firebase.auth().signOut()}>Sign Out!</button>
-                        <h1>welcome {firebase.auth().currentUser.displayName}</h1>
+                        <button class="logout_button" onClick = {() => firebase.auth().signOut()}>Sign Out!</button>
+                        <h1 style= {{color: 'darkolivegreen'}}>Welcome {firebase.auth().currentUser.displayName}</h1>
                     </span>
-                
                 ): (
+                    <div>
                     <StyledFirebaseAuth
                     className = "FaceBook"
                     uiConfig = {this.uiConfig}
                     firebaseAuth = {firebase.auth()}
                     />
+                    <LinkedInSign/>
+                    </div>
                 )}
-                <LinkedInSign/>
             </div>
         )
     }
