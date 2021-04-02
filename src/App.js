@@ -3,7 +3,7 @@ import Navbar from "./components/Navbar";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "./App.css";
 import Home from "./components/pages/home.js";
-import Team from './components/pages/TeamPage/Team.js';
+import Team from "./components/pages/TeamPage/Team.js";
 import Contact from "./components/pages/Contact";
 import Information from "./components/pages/InformationPage/Information";
 import Login from "./components/pages/LoginSignUpPage/Login.js";
@@ -15,13 +15,12 @@ function App() {
             <Router>
                 <Navbar />
                 <Switch>
-                    <Route path="/" exact component={Home} />
+                    <Route path="/" component={Home} />
                     <Route path="/information" component={Information} />
                     <Route path="/team" component={Team} />
                     <Route path="/contect" component={Contact} />
                     <Route path="/login" component={Login} />
-                    <Route path="/signup" component={Signup}/>
-                    
+                    <Route path="/signup" component={Signup} />
                 </Switch>
             </Router>
         </>
