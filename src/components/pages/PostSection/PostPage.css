@@ -1,0 +1,101 @@
+/* input fields with full size*/
+input[type="text"] {
+    width: 45%;
+    padding: 16px;
+    margin: 6px 0 20px 0;
+    display: inline-block;
+    text-align: left;
+    color: black;
+    font-size: 16px;
+    border:1px solid black;
+    flex-wrap: wrap;
+    background-color: white;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.342);
+    -webkit-border-radius: 7px;
+    border-radius: 7px;
+}
+/*
+button style
+*/
+.topssignUp
+ {
+    background-color: black;
+    color: white;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+    opacity: 1;
+    border-radius: 7px;
+    margin-left: 250px;
+    padding: 14px 20px;
+    width: 15%;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.342);
+}
+.toplogIn {
+    background-color: black;
+    color: white;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+    width: 15%;
+    opacity: 1;
+    padding: 14px 20px;
+    width: 16%;
+    margin-top: 25px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.342);
+}
+.btn_post{
+    width: 45%;
+    padding: 16px;
+    margin: 6px 0 20px 0;
+    display: inline-block;
+    text-align: left;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    border:1px solid black;
+    flex-wrap: wrap;
+    background-color: white;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.342);
+    -webkit-border-radius: 7px;
+    border-radius: 7px;
+}
+/* container style */
+.grid-container {
+    display: grid;
+    grid-template-columns: 700px 200px 600px;
+    padding: 10px;
+    margin-right: auto;
+}
+/*item inside container logo*/
+.grid-item {
+    padding: 10px;
+}
+.grid-item1 {
+    margin-left: 50px;
+}
+.grid-logo {
+    margin-left: 70px;
+}
+.image {
+   
+    margin-bottom: 0px;
+    margin-left: 30px;
+    
+}
+.image1 {
+    margin-bottom: 0px;
+    margin-left: 10px;
+    
+}
+.image2 {
+    margin-left: 10px;
+    
+}
+.logo{
+    margin-bottom: -33px;
+}

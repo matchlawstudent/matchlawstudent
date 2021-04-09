@@ -9,6 +9,7 @@ import Contact from "./components/pages/Contact";
 import Information from "./components/pages/InformationPage/Information";
 import Login from "./components/pages/LoginSignUpPage/Login.js";
 import Signup from "./components/pages/LoginSignUpPage/Signup.js";
+import PostPage from "./components/pages/PostSection/PostPage.js";
 
 function App() {
     return (
@@ -22,6 +23,7 @@ function App() {
                     <Route path="/contect" component={Contact} />
                     <Route path="/login" component={Login} />
                     <Route path="/signup" component={Signup}/>
+                    <Route path="/postpage" component={PostPage}/>
                     
                 </Switch>
             </Router>

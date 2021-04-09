@@ -1,11 +1,12 @@
 import React, { Component, useState } from 'react';
-import "./LoginSignUp.css";
+import "./PostPage.css";
+import { Button } from "../../Button";
 import k from '../../../images/mls_logo_small.png';
 import InstagramIcon from '@material-ui/icons/Instagram';
 import FacebookIcon from '@material-ui/icons/Facebook';
 import { Link } from "react-router-dom";
-import MediaLogin from './mediaLogin';
-class Login extends Component {
+
+class PostPage extends Component {
     render() {
      
         return (
@@ -33,47 +34,43 @@ class Login extends Component {
                         </div>
                 <div class="grid-item1">
                     <form>
-                        <h1 class = "h1signin">Sign In</h1>
-                        
-                        <label for="email">
-                            <b>Email</b>
-                        </label>
-                        <br/>
-                        <input type="text" placeholder="Please Enter Email" name="email" required/>
-                        <br/>
-                        <label for="psw"><b>Password</b></label><br/>
-                        <input type="password" placeholder="Please Enter Password" name="passw" required/>
-                        <br/>
-                        <label>
-                            <input type="checkbox"  name="remember"/> Remember Me
-                        </label><br/>
-                        <button type="submit" class="login">Log In</button>
-                        <p>By Signing in, you agree to <a href="#">Term of Use</a>.</p>
-                        <div class="clearfix">
-                            I don’t have an account 
-                            <span className = "arrow">&rarr;</span>
-                            <Link
+                    <br/>  <br/>  <br/>
+                    <input type="text" placeholder="Search" name="email"/>
+                    <br/>
+                    <Link
                                 to="/signup"
                             >
-                                <button type="button" class="loginbtn">SIGN UP</button>
+                                <button type="button" class="btn_post">Immigration</button>
                             </Link>
-                        </div>
+                    <br/>
+                    <Link
+                                to="/signup"
+                            >
+                                <button type="button" class="btn_post">Tenant Law</button>
+                            </Link>
+                    <br/>
+                    <Link
+                                to="/signup"
+                            >
+                                <button type="button" class="btn_post">Labor Law</button>
+                            </Link>
+                    <br/>
+                    <Link
+                                to="/signup"
+                            >
+                                <button type="button" class="btn_post">Traffic Law</button>
+                            </Link>
                     </form>
+               
                 </div>
                 <div class="grid-item">
-                    <br/><br/><br/><br/>
-                    <div class="vl"></div>
+                    <h1>Community</h1>
                 </div>
                 <div class="grid-item">
-                    <form>
-                    <br/><br/><br/><br/>
-                    <MediaLogin/>
-                    </form>
+                   
                 </div>
             </div>
         );
     }
 }
-
-
-export default Login;
+export default PostPage;
