@@ -91,7 +91,7 @@ function Navbar() {
                         </li>
                     </ul>
                     
-                    <Button buttonStyle="btn--outline">SIGN IN</Button>
+                    <Button link ="./login" buttonStyle="btn--outline">SIGN IN</Button>
                 </div>
             </nav>
         </>

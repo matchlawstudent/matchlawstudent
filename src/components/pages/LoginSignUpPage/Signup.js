@@ -3,7 +3,6 @@ import "./LoginSignUp.css";
 import k from '../../../images/mls_logo_small.png';
 import InstagramIcon from '@material-ui/icons/Instagram';
 import FacebookIcon from '@material-ui/icons/Facebook';
-import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import MediaLogin from './mediaLogin';
 import { Link } from "react-router-dom";
 
@@ -13,11 +12,10 @@ class Login extends Component {
         return (
             <div class="grid-container">
                         <div class="grid-logo">
-                            <img src={k}></img>
+                            <img src={k} className ="logo" ></img>
                            <a href ="https://www.facebook.com/"><FacebookIcon className ="image"></FacebookIcon></a>
                            <a href ="https://www.instagram.com"><InstagramIcon className ="image1"></InstagramIcon></a>
-                           <a href ="https://www.linkedin.com"><LinkedInIcon className ="image1"></LinkedInIcon></a> 
-                            
+                           <a href ="https://web.wechat.com" className ="image2" ><i class="fab fa-weixin" ></i></a> 
                         </div>
                         <div class="grid-item">
                 
