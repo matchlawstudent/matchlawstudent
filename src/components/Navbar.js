@@ -82,11 +82,11 @@ function Navbar() {
 
                         <li className="nav-item">
                             <Link
-                                to="/Login"
-                                className="nav-links-mobile"
+                                to="./postpage"
+                                className="nav-links"
                                 onClick={closeMobileMenu}
                             >
-                                Sign In
+                                Post Section
                             </Link>
                         </li>
                     </ul>

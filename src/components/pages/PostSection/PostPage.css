@@ -1,3 +1,8 @@
+/*h3*/
+.immigrationH3{
+    margin-right: 550px;
+    margin-top: 50px;
+}
 /* input fields with full size*/
 .search[type="text"] {
     width: 45%;
@@ -32,20 +37,19 @@
     border-radius: 7px;
 }
 /* container style */
-.grid-container {
+.grid-containerP {
     display: grid;
-    grid-template-columns: 700px 200px 600px;
-    padding: 10px;
-    margin-right: auto;
+    grid-template-columns: 500px 400px 600px;
+    margin-right: 0px;
 }
 /*item inside container logo*/
-.grid-item {
+.grid-itemP {
     padding: 10px;
 }
-.grid-item1 {
+.grid-item1P {
     margin-left: 50px;
 }
-.grid-logo {
+.grid-logoP {
     margin-left: 70px;
 }
 .image {
@@ -63,6 +67,11 @@
     margin-left: 10px;
     
 }
-.logo{
+.logoP{
     margin-bottom: -33px;
+}
+/*ifram Post*/
+.iframPost{
+    border: none;
+    
 }
