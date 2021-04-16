@@ -39,8 +39,8 @@ export default {
             link: "https://www.debt.com/webinars/"
         },        
         {
-            text: "test",
-            link: "https://www.google.com"
+            text: "Rent a House Tip",
+            link: "https://www.moneytalksnews.com/6-steps-for-fighting-and-beating-a-bad-landlord/"
         },
     ],
     covidInfo: [
