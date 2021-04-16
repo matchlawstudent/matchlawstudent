@@ -37,6 +37,10 @@ export default {
         {
             text: "Debt-related resources and webinars",
             link: "https://www.debt.com/webinars/"
+        },        
+        {
+            text: "test",
+            link: "https://www.google.com"
         },
     ],
     covidInfo: [
