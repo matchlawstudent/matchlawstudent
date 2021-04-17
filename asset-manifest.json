@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/matchlawstudent.github.io/static/css/main.d1f5b485.chunk.css",
-    "main.js": "/matchlawstudent.github.io/static/js/main.0a948e7b.chunk.js",
-    "main.js.map": "/matchlawstudent.github.io/static/js/main.0a948e7b.chunk.js.map",
+    "main.js": "/matchlawstudent.github.io/static/js/main.e9e9af13.chunk.js",
+    "main.js.map": "/matchlawstudent.github.io/static/js/main.e9e9af13.chunk.js.map",
     "runtime-main.js": "/matchlawstudent.github.io/static/js/runtime-main.45c247b1.js",
     "runtime-main.js.map": "/matchlawstudent.github.io/static/js/runtime-main.45c247b1.js.map",
     "static/js/2.6bd85b4c.chunk.js": "/matchlawstudent.github.io/static/js/2.6bd85b4c.chunk.js",
@@ -23,6 +23,6 @@
     "static/js/runtime-main.45c247b1.js",
     "static/js/2.6bd85b4c.chunk.js",
     "static/css/main.d1f5b485.chunk.css",
-    "static/js/main.0a948e7b.chunk.js"
+    "static/js/main.e9e9af13.chunk.js"
   ]
 }
