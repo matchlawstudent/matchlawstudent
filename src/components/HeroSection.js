@@ -7,11 +7,13 @@ function HeroSection() {
     return (
         <div className="hero-container">
             {/* <img src="/images/mls_logo_background.png"></img> */}
+            <br/><br/><br/>
             <h1>Match Law Students</h1>
             <p>Bridge The Gap of Legal Access</p>
 
             <div className="hero-btns">
                 <Button
+                    link = "./postpage"
                     className="btns"
                     buttonStyle="btn--whiteOutline"
                     buttonSize="btn--large"
@@ -19,6 +21,7 @@ function HeroSection() {
                     Washington
                 </Button>
                 <Button
+                    link = "./postpage"
                     className="btns"
                     buttonStyle="btn--whiteOutline"
                     buttonSize="btn--large"

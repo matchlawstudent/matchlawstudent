@@ -1,0 +1,27 @@
+.avatar {
+    margin: auto;
+}
+
+.person {
+    margin-bottom: 50px;
+}
+
+.team-header {
+    margin-bottom: 3%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    color: black;
+    padding: 1.5%;
+}
+
+.root {
+    text-align: center; 
+}
+
+.team-text {
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: left;
+    font-size: 12px;
+}

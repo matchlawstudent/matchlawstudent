@@ -3,6 +3,7 @@ import sam from '../images/sam.jpg';
 import khai from '../images/khai.jpg';
 import jason from '../images/jason.jpg';
 import crystal from '../images/crystal.jpg';
+import juno from '../images/juno.jpg';
 
 
 
@@ -22,6 +23,16 @@ export default {
             "I’m always excited to meet new people, listen to their stories, and seek the most interesting and efficient way to communicate.",
             linkedin: "https://www.linkedin.com/in/bing-crystal-bai/"
 
+        },
+        {
+            name: "Oyunomin Munkhkhurel",
+            image: juno,
+            bio: "Oyunomin Munkhkhurel is a senior year student in Application " +
+            "Development program at North Seattle College. Her studies include Web, " +
+            "Mobile, and Cloud application building as well as data science. She is " +
+            "still exploring many sides of computer science and enjoys building " +
+            "websites. In her free time, she is a portrait painter of furry friends",
+            linkedin: "https://www.linkedin.com/in/juno-munkhkhurel-35805a163/"
         },
         {
             name: "Jason Huang",

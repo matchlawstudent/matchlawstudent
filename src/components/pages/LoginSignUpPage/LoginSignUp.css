@@ -1,0 +1,233 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+* {
+    box-sizing: border-box;
+}
+.h1signin {
+    margin-right: 260px;
+    color: darkolivegreen;
+}
+.arrow {
+    font-size: 25px;
+}
+
+/* input fields with full size*/
+input[type="text"],
+input[type="password"] {
+    width: 57%;
+    padding: 16px;
+    margin: 6px 0 20px 0;
+    display: inline-block;
+    border: none;
+    flex-wrap: wrap;
+    background-color: black;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.342);
+    -webkit-border-radius: 7px;
+    border-radius: 7px;
+}
+input[type="text"]:focus,
+input[type="password"]:focus {
+    background-color: #ddd;
+    outline: none;
+    flex-wrap: wrap;
+}
+.remember {
+    margin-bottom:15px;
+}
+a {
+    color:dodgerblue;
+}
+hr {
+    border: 1px solid aliceblue;
+    margin-bottom: 25px;
+}
+/* Style for buttons*/
+button1 {
+    background-color: black;
+    color: white;
+    padding: 14px 20px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+    width: 15%;
+    opacity: 1;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.342);
+    -webkit-border-radius: 7px;
+    border-radius: 7px;
+}
+button1:hover {
+    opacity: 1;
+}
+
+/*
+button style
+*/
+.topssignUp
+ {
+    background-color: black;
+    color: white;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+    opacity: 1;
+    border-radius: 7px;
+    margin-left: 250px;
+    padding: 14px 20px;
+    width: 15%;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.342);
+}
+.toplogIn {
+    background-color: black;
+    color: white;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+    width: 15%;
+    opacity: 1;
+    padding: 14px 20px;
+    width: 16%;
+    margin-top: 25px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.342);
+}
+/* Cancel and sign up , add equal width*/
+.cancelbtn,
+.signupbtn {
+    background-color: black;
+    color: white;
+    padding: 14px 20px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+    opacity: 1;
+    -webkit-border-radius: 7px;
+    border-radius: 7px;
+    width: 15%;
+    margin-left: 66px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.342);
+}
+/* sign out button*/
+.logout_button{
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    opacity: 1;
+    -webkit-border-radius: 7px;
+    border-radius: 7px;
+    padding: 14px 20px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.342);
+}
+/*login magin*/
+.login {
+    background-color: black;
+    color: white;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+    opacity: 1;
+    -webkit-border-radius: 7px;
+    border-radius: 7px;
+    padding: 14px 20px;
+    width: 15%;
+    margin-left: 0px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.342);
+}
+/*link buttons*/
+.loginbtn {
+    background-color: black;
+    color: white;
+    margin: 10px;
+    border: none;
+    width: 15%;
+    opacity: 1;
+    -webkit-border-radius: 7px;
+    border-radius: 7px;
+    padding: 14px 20px;
+    width: 15%;
+    margin-left: 40px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.342);
+}
+/* media */
+.FaceBook {
+    margin-left: -180px;
+    margin-top: -40px;
+}
+
+.LinkedIn {
+    padding: 14px 20px;
+    margin-top: -20px;
+    cursor: pointer;
+    border-radius: 7px;
+    width: 1px;
+    height: 10px;
+    margin-left: 70px;
+}
+/* Padding for container*/
+.container {
+    padding: 16px;
+}
+/* Clear floats*/
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+/* Change styles cancel and sign up button on small screen*/
+@media screen and (max-width: 300px) {
+    .cancelbtn,
+    .signupbtn {
+        width: 100%;
+    }
+}
+/* form style*/
+form {
+    padding: 20px;
+    -webkit-border-radius: 7px;
+    border-radius: 7px;
+    
+}
+/* line style*/
+.vl {
+    border-left: 1px solid black;
+    height: 270px;
+}
+/* container style */
+.grid-container {
+    display: grid;
+    grid-template-columns: 700px 200px 600px;
+    padding: 10px;
+    margin-right: auto;
+}
+/*item inside container logo*/
+.grid-item {
+    padding: 10px;
+}
+.grid-item1 {
+    margin-left: 50px;
+}
+.grid-logo {
+    margin-left: 70px;
+}
+.image {
+   
+    margin-bottom: 0px;
+    margin-left: 30px;
+    
+}
+.image1 {
+    margin-bottom: 0px;
+    margin-left: 10px;
+    
+}
+.image2 {
+    margin-left: 10px;
+    
+}
+.logo{
+    margin-bottom: -33px;
+}

@@ -25,3 +25,7 @@
     text-align: left;
     font-size: 12px;
 }
+
+.team-card {
+    border: 2px #384728 solid; 
+}
