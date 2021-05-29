@@ -79,6 +79,15 @@ function Navbar() {
                                 Information
                             </Link>
                         </li>
+                        <li className="nav-item">
+                            <Link
+                                to="/template"
+                                className="nav-links"
+                                onClick={closeMobileMenu}
+                            >
+                                Templates
+                            </Link>
+                        </li>
 
                         <li className="nav-item">
                             <Link
