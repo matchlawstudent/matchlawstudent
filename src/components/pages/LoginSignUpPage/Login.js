@@ -20,7 +20,7 @@ class Login extends Component {
                 
                         </div>
                         <div class="grid-item">
-                        <Link
+                        {/*<Link
                                 to="/login"
                             >
                                 <button type="button" class="topssignUp">Log In</button>
@@ -29,7 +29,7 @@ class Login extends Component {
                                 to="/signup"
                             >
                                 <button type="button" class="toplogIn">Sign Up</button>
-                            </Link>
+                        </Link>*/}
                         </div>
                 <div class="grid-item1">
                     <form>
